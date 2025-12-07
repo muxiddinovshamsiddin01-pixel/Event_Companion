@@ -1,4 +1,3 @@
-
 TEXTS = {
     'en': {
         'choose_language': '🌍 Please choose your language:',
@@ -505,3 +504,4 @@ def get_text(lang, key, **kwargs):
     if kwargs:
         return text.format(**kwargs)
     return text
+
