@@ -35,7 +35,7 @@ Telegram event companion bot with in‑bot admin controls and a Django web admin
   - `BOT_TOKEN` — Telegram bot token
   - `ADMIN_PASSWORD` — password for in‑bot admin panel
   - `ADMIN_IDS` — list of administrator user IDs
-  - `DATABASE_NAME` — SQLite file name (default `event_bot.db`)
+  - `DATABASE_NAME` — "event_bot.db"
 
 - `database.py` — SQLite access helpers:
   - Initializes tables and indexes (`init_database`).
